@@ -20,8 +20,7 @@ const Home = () => {
                             </h1>
 
                             <h1 className="heading-name">
-                                MY NAME IS
-                                <strong className="main-name">NATHAN CLAIRMONTE</strong>
+                                My name is <strong className="main-name">Nathan Clairmonte</strong>
                             </h1>
 
                             <div style={{ padding: 50, textAlign: "left" }}>
