@@ -3,6 +3,7 @@ import "./App.css";
 import Preloader from "./components/Preloader";
 import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
 import Home from "./components/Home/Home";
+import NavigationBar from "./components/Navbar/NavigationBar";
 import "./allStyles.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -21,7 +22,7 @@ function App() {
         <BrowserRouter>
             <Preloader load={load} />
             <div className="App" id={load ? "no-scroll" : "scroll"}>
-                {/* Navbar */}
+                <NavigationBar />
                 {/* ScrollToTop */}
                 <Routes>
                     <Route path="/" element={<Home />} />
