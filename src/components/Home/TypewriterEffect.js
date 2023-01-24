@@ -7,9 +7,9 @@ const TypewriterEffect = () => {
             options={{
                 strings: [
                     "Machine Learning Engineer",
-                    "Web Developer",
-                    "Machine Learning Researcher",
-                    "App Developer",
+                    "Data Scientist",
+                    "Full-Stack Developer",
+                    "Web/App Developer",
                 ],
                 autoStart: true,
                 loop: true,
