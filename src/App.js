@@ -4,6 +4,7 @@ import Preloader from "./components/Preloader";
 import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
 import Home from "./components/Home/Home";
 import "./allStyles.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
     const [load, setLoad] = useState(true);

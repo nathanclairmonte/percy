@@ -46,3 +46,9 @@ const Home = () => {
 };
 
 export default Home;
+//TODO
+// - HomeAbout styling isn't working for some reason. Dig into that
+// - Similarly, HomeAbout layout is fucked too. Figure out why
+// - Tilt functionality on the HomeAbout avatar also not working. Why?
+// - Particles not working. Why?
+// - Need to find a more suitable avatar or find a pic to replace it

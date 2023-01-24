@@ -12,7 +12,7 @@ const HomeAbout = () => {
                 <Row>
                     <Col md={8} className="home-about-description">
                         <h1 style={{ fontSize: "2.6em" }}>
-                            Let me <span className="orange"> INTRODUCE </span> MYSELF
+                            Let me <span className="orange"> introduce </span> myself
                         </h1>
 
                         <p className="home-about-body">
@@ -24,9 +24,8 @@ const HomeAbout = () => {
                             <i>
                                 <b className="orange"> AI, machine learning and deep learning </b>
                             </i>
-                            technologies.
-                            <br />
-                            Specifically, I have worked on machine learning projects for
+                            technologies. Specifically, I have worked on machine learning projects
+                            for
                             <i>
                                 <b className="orange">
                                     {" "}
@@ -34,7 +33,8 @@ const HomeAbout = () => {
                                     computer vision{" "}
                                 </b>
                             </i>
-                            and more...
+                            and more.
+                            <br />
                             <br />
                             Additionally, I enjoy
                             <i>
