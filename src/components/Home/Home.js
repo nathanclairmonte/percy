@@ -4,6 +4,7 @@ import Particle from "./Particle";
 import TypewriterEffect from "./TypewriterEffect";
 import homeLogo from "../../assets/home-main.svg";
 import HomeAbout from "./HomeAbout";
+import "./Home.css";
 
 const Home = () => {
     return (

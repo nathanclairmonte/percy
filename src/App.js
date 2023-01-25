@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./App.css";
-import Preloader from "./components/Preloader";
+import Preloader from "./components/Preloader/Preloader";
 import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
 import Home from "./components/Home/Home";
 import NavigationBar from "./components/Navbar/NavigationBar";

@@ -10,6 +10,7 @@ import {
     AiOutlineFundProjectionScreen,
     AiOutlineUser,
 } from "react-icons/ai";
+import "./NavigationBar.css";
 
 const NavigationBar = () => {
     const [expanded, setExpanded] = useState(false);
