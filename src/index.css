@@ -4,7 +4,7 @@ body {
         "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background-image: linear-gradient(to left, rgb(0, 37, 52), rgb(8, 40, 97));
+    background-image: linear-gradient(to left, rgb(11, 19, 64), rgb(8, 40, 97));
 }
 
 code {
