@@ -12,14 +12,18 @@ const Footer = () => {
 
     return (
         <Container fluid className="footer">
-            <Row>
-                <Col md={4} className="footer-copyright">
+            <Row className="footer-content">
+                <Col md={6} className="footer-copyright">
                     <h3>Designed and developed by Nathan Clairmonte</h3>
                 </Col>
-                <Col md={4} className="footer-copyright">
+                <Col md={3} className="footer-copyright">
                     <h3>Copyright © {year} NC</h3>
                 </Col>
-                <Col md={4} className="footer-body">
+                {/* <Col md={9} className="footer-copyright">
+                    <h3>Designed and developed by Nathan Clairmonte</h3>
+                    <h3>Copyright © {year} NC</h3>
+                </Col> */}
+                <Col md={3} className="footer-body">
                     <ul className="footer-icons-list">
                         <li className="social-icons">
                             <a

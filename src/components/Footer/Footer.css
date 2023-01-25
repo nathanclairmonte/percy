@@ -5,6 +5,11 @@
     padding-bottom: 8px !important ;
 }
 
+/* .footer-content {
+    display: flex;
+    justify-content: center;
+} */
+
 .footer-copyright {
     text-align: center !important;
 }
