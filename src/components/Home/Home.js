@@ -49,5 +49,7 @@ export default Home;
 //TODO
 // - Particles not working. Why?
 // - Need to find a more suitable avatar or find a pic to replace it
-// - Navbar styling not working. Why?
 // - split CSS into individual files for each component
+// - Fix the social media icons in Home About, slightly off-centre
+// - remember to change footer-icons to footer-icons-list in css
+// - remember to change social-icons to footer-icon in css

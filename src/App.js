@@ -6,6 +6,7 @@ import Home from "./components/Home/Home";
 import NavigationBar from "./components/Navbar/NavigationBar";
 import "./allStyles.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Footer from "./components/Footer/Footer";
 
 function App() {
     const [load, setLoad] = useState(true);
@@ -28,6 +29,7 @@ function App() {
                     <Route path="/" element={<Home />} />
                     <Route path="*" element={<Navigate to="/" />} />
                 </Routes>
+                <Footer />
             </div>
         </BrowserRouter>
     );
