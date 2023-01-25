@@ -50,3 +50,4 @@ export default Home;
 // - Particles not working. Why?
 // - Need to find a more suitable avatar or find a pic to replace it
 // - Navbar styling not working. Why?
+// - split CSS into individual files for each component

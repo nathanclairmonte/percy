@@ -58,7 +58,6 @@ button:focus {
 /* Navbar Section------------------------------------------------------------------------*/
 /* --------- */
 .sticky {
-    /* background-color: #1b1a2ea9 !important; */
     background-color: #0b1340a9 !important;
     transition: all 0.3s ease-out 0s !important;
     box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) !important;
@@ -185,7 +184,7 @@ button:focus {
 }
 
 .navbar-nav .nav-item a:hover::after {
-    width: 100%;
+    width: 104%;
 }
 
 .navbar-nav {
