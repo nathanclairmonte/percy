@@ -8,6 +8,7 @@ import Home from "./components/Home/Home";
 import NavigationBar from "./components/Navbar/NavigationBar";
 import Footer from "./components/Footer/Footer";
 import About from "./components/About/About";
+import Projects from "./components/Projects/Projects";
 
 function App() {
     const [load, setLoad] = useState(true);
@@ -29,6 +30,7 @@ function App() {
                 <Routes>
                     <Route path="/" element={<Home />} />
                     <Route path="about" element={<About />} />
+                    <Route path="projects" element={<Projects />} />
                     <Route path="*" element={<Navigate to="/" />} />
                 </Routes>
                 <Footer />

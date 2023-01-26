@@ -58,3 +58,4 @@ export default Home;
 //   window. Want them to be column when the window is small and we have those three
 //   lines basically. Will have to dig into the documentation for Nav.Toggle and figure
 //   out how he made that three line span functionality work
+// - Need to add projects to the projects page
