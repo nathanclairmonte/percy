@@ -1,10 +1,11 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle/Particle";
+import GitHubCalendar from "react-github-calendar";
 import aboutImg from "../../assets/about.png";
-import "./About.css";
 import AboutCard from "./AboutCard";
 import TechStack from "./TechStack";
+import "./About.css";
 
 const About = () => {
     return (
@@ -33,12 +34,19 @@ const About = () => {
                     </Col>
                 </Row>
                 <h1 className="about-heading">Professional Skillset</h1>
-                {/* TechStack */}
                 <TechStack />
 
-                {/* <h1 className="about-heading">Tools I Use</h1> */}
-                {/* ToolStack */}
-                {/* Github component */}
+                <h1 className="about-heading">Github Commit History</h1>
+                <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+                    <GitHubCalendar
+                        username="nathanclairmonte"
+                        year={2023}
+                        blockSize={15}
+                        blockMargin={5}
+                        color="#eb9722"
+                        fontSize={16}
+                    />
+                </Row>
             </Container>
         </Container>
     );

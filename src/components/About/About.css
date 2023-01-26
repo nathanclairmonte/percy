@@ -59,7 +59,7 @@ html {
     margin: 15px !important;
     padding: 10px !important;
     opacity: 0.93 !important;
-    border: 1.7px solid rgba(235, 151, 34, 0.637) !important;
+    border: 1.7px solid rgba(235, 151, 34, 0.571) !important;
     vertical-align: middle !important;
     text-align: center !important;
     border-radius: 5px !important;
@@ -67,9 +67,9 @@ html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    box-shadow: 4px 5px 4px 3px rgba(71, 44, 6, 0.157) !important;
+    box-shadow: 4px 5px 4px 3px rgba(71, 44, 6, 0.177) !important;
     overflow: hidden !important;
-    transition: all 0.4s ease 0s !important;
+    transition: all 0.3s ease 0s !important;
 }
 
 .tech-icon {
