@@ -49,7 +49,12 @@ const NavigationBar = () => {
                 </Navbar.Toggle>
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="ms-auto navbar-expand-md" defaultActiveKey="#home">
-                        <Nav.Item style={{ display: "flex", flexDirection: "row" }}>
+                        <Nav.Item
+                            style={{
+                                display: "flex",
+                                flexDirection: expanded ? "column" : "row",
+                            }}
+                        >
                             <Nav.Link as={Link} to="/" onClick={() => setExpanded(false)}>
                                 <AiOutlineHome style={{ marginBottom: iconMargin }} /> Home
                             </Nav.Link>

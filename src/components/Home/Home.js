@@ -48,11 +48,13 @@ const Home = () => {
 
 export default Home;
 //TODO
-// - Particles not working. Why?
 // - Need to find a more suitable avatar or find a pic to replace it
 // - split CSS into individual files for each component
 // - Fix the social media icons in Home About, slightly off-centre
-// - remember to change footer-icons to footer-icons-list in css
-// - remember to change social-icons to footer-icon in css
 // - maybe change the icons throughout? especially for navbar. check react-icons
 //   to see what they have
+// - NavBar still giving some trouble. Issue is mainly with the flex direction of the
+//   links and trying to make them switch from row to column based on the width of the
+//   window. Want them to be column when the window is small and we have those three
+//   lines basically. Will have to dig into the documentation for Nav.Toggle and figure
+//   out how he made that three line span functionality work
