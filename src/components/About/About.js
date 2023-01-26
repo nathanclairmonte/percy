@@ -8,6 +8,9 @@ import TechStack from "./TechStack";
 import "./About.css";
 
 const About = () => {
+    let date = new Date();
+    let year = date.getFullYear();
+
     return (
         <Container fluid className="about-section">
             <Particle />
@@ -40,7 +43,7 @@ const About = () => {
                 <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
                     <GitHubCalendar
                         username="nathanclairmonte"
-                        year={2023}
+                        year={year}
                         blockSize={15}
                         blockMargin={5}
                         color="#eb9722"
