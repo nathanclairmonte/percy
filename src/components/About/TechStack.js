@@ -80,12 +80,12 @@ const technologies = [
         icon: <FaReact className="tech-icon" />,
     },
     {
-        name: "Bootstrap",
-        icon: <SiBootstrap className="tech-icon" />,
-    },
-    {
         name: "Node.js",
         icon: <FaNode className="tech-icon" />,
+    },
+    {
+        name: "Bootstrap",
+        icon: <SiBootstrap className="tech-icon" />,
     },
     {
         name: "Flask",
@@ -117,7 +117,7 @@ const TechStack = () => {
     return (
         <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
             {technologies.map((tech) => (
-                <Col xs={4} md={2} className="tech-icon-container">
+                <Col xs={3} md={2} className="tech-icon-container">
                     {tech.icon} {tech.name}
                 </Col>
             ))}

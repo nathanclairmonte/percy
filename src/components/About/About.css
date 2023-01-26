@@ -70,6 +70,7 @@ html {
     box-shadow: 4px 5px 4px 3px rgba(71, 44, 6, 0.177) !important;
     overflow: hidden !important;
     transition: all 0.3s ease 0s !important;
+    /* width: 14%; */
 }
 
 .tech-icon {
