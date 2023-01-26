@@ -74,7 +74,11 @@ const NavigationBar = () => {
                                 <CgFileDocument style={{ marginBottom: iconMargin }} /> Resume
                             </Nav.Link>
 
-                            <Nav.Link as={Link} to="/resume" onClick={() => setExpanded(false)}>
+                            <Nav.Link
+                                href="https://github.com/nathanclairmonte/"
+                                onClick={() => setExpanded(false)}
+                                target="_blank"
+                            >
                                 <AiFillGithub style={{ marginBottom: iconMargin }} /> Github
                             </Nav.Link>
                         </Nav.Item>
