@@ -28,7 +28,6 @@ const Projects = () => {
                     Here are a few projects I've worked on throughout my career
                 </p>
                 <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-                    {/* Javascript to map an object to a bunch of project cards */}
                     {myProjects.map((project) => (
                         <Col md={4} className="projects-card">
                             <ProjectCard

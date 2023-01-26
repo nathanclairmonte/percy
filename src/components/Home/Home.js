@@ -59,3 +59,4 @@ export default Home;
 //   lines basically. Will have to dig into the documentation for Nav.Toggle and figure
 //   out how he made that three line span functionality work
 // - Need to add projects to the projects page
+// - Maybe add links to the professional skillset icons? Could be cool

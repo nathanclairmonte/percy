@@ -13,7 +13,6 @@ const ProjectCard = ({ img, title, desc, gitLink, webLink }) => {
                 <Button variant="primary" href={gitLink} target="_blank">
                     <BsGithub /> GitHub
                 </Button>
-                {/* Could add a website button here in future */}
                 {webLink ? (
                     <Button
                         variant="primary"
