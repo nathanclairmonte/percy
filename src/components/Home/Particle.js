@@ -1,52 +1,71 @@
-import React from "react";
+import React, { useCallback } from "react";
 import Particles from "react-tsparticles";
+import { loadFull } from "tsparticles";
 
 const Particle = () => {
+    const particlesInit = useCallback(async (engine) => {
+        console.log(engine);
+        await loadFull(engine);
+    }, []);
+
+    const particlesLoaded = useCallback(async (container) => {
+        await console.log(container);
+    }, []);
+
     return (
         <Particles
             id="tsparticles"
-            params={{
+            init={particlesInit}
+            loaded={particlesLoaded}
+            options={{
                 particles: {
-                    number: {
-                        value: 160,
-                        density: {
-                            enable: true,
-                            value_area: 1500,
-                        },
+                    color: {
+                        value: "#ffffff",
                     },
-                    line_linked: {
+                    links: {
                         enable: false,
+                        color: "#ffffff",
+                        distance: 150,
                         opacity: 0.03,
+                        width: 1,
+                    },
+                    collisions: {
+                        enable: false,
                     },
                     move: {
                         direction: "right",
                         speed: 0.05,
                     },
-                    size: {
-                        value: 1,
+                    number: {
+                        value: 160,
+                        density: {
+                            enable: true,
+                            area: 1500,
+                        },
                     },
                     opacity: {
+                        value: 0.5,
                         anim: {
                             enable: true,
-                            speed: 1,
+                            speed: 0.5,
                             opacity_min: 0.05,
                         },
+                    },
+                    shape: {
+                        type: "circle",
+                    },
+                    size: {
+                        value: { min: 1, max: 1.82 },
                     },
                 },
                 interactivity: {
                     events: {
                         onClick: {
-                            enable: true,
-                            mode: "push",
-                        },
-                    },
-                    modes: {
-                        push: {
-                            particles_nb: 1,
+                            enable: false,
                         },
                     },
                 },
-                retina_detect: true,
+                detectRetina: true,
             }}
         />
     );
