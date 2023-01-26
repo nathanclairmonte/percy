@@ -19,10 +19,6 @@ const Footer = () => {
                 <Col md={3} className="footer-copyright">
                     <h3>Copyright © {year} NC</h3>
                 </Col>
-                {/* <Col md={9} className="footer-copyright">
-                    <h3>Designed and developed by Nathan Clairmonte</h3>
-                    <h3>Copyright © {year} NC</h3>
-                </Col> */}
                 <Col md={3} className="footer-body">
                     <ul className="footer-icons-list">
                         <li className="social-icons">

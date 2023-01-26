@@ -1,3 +1,13 @@
+html {
+    --image-gradient: linear-gradient(
+        to bottom left,
+        rgba(17, 16, 16, 0.571),
+        rgba(6, 1, 33, 0.763)
+    );
+
+    --imp-text-color: #eb9722;
+}
+
 .wave {
     animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
     animation-duration: 2.1s; /* Change to speed up or slow down */
