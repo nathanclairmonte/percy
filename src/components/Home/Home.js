@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import Particle from "./Particle";
+import Particle from "../Particle/Particle";
 import TypewriterEffect from "./TypewriterEffect";
 import homeLogo from "../../assets/home-main.svg";
 import HomeAbout from "./HomeAbout";
@@ -54,3 +54,5 @@ export default Home;
 // - Fix the social media icons in Home About, slightly off-centre
 // - remember to change footer-icons to footer-icons-list in css
 // - remember to change social-icons to footer-icon in css
+// - maybe change the icons throughout? especially for navbar. check react-icons
+//   to see what they have

@@ -53,6 +53,7 @@ const Particle = () => {
                     },
                     shape: {
                         type: "circle",
+                        // type: "star",
                     },
                     size: {
                         value: { min: 1, max: 1.82 },
