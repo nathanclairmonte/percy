@@ -12,9 +12,11 @@
     justify-content: center;
 }
 
-/* .resume-document {
-
-} */
+.resume-document {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
 
 /* .resume .resume-title {
     font-size: 2em;
