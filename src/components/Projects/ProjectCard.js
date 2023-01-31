@@ -6,10 +6,20 @@ import { BsGithub } from "react-icons/bs";
 const ProjectCard = ({ img, title, desc, gitLink, webLink }) => {
     return (
         <Card className="project-card-container">
-            <Card.Img variant="top" src={img} alt="project-card-img" />
+            <Card.Img
+                variant="top"
+                src={img}
+                alt="project-card-img"
+                style={{
+                    paddingRight: "15px",
+                    paddingLeft: "15px",
+                    paddingTop: "15px",
+                    // borderRadius: "20px",
+                }}
+            />
             <Card.Body>
                 <Card.Title>{title}</Card.Title>
-                <Card.Text style={{ textAlign: "justify" }}>{desc}</Card.Text>
+                <Card.Text style={{ textAlign: "center" }}>{desc}</Card.Text>
                 <Button variant="primary" href={gitLink} target="_blank">
                     <BsGithub /> GitHub
                 </Button>
