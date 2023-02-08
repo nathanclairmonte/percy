@@ -14,7 +14,7 @@ const ProjectCard = ({ img, title, desc, gitLink, webLink }) => {
                     paddingRight: "15px",
                     paddingLeft: "15px",
                     paddingTop: "15px",
-                    // borderRadius: "20px",
+                    // borderRadius: "5%",
                 }}
             />
             <Card.Body>

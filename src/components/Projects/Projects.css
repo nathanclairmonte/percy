@@ -27,8 +27,8 @@ html {
 .projects-card {
     padding-top: 50px !important;
     padding-bottom: 50px !important;
-    padding-left: 25px !important;
-    padding-right: 25px !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
     height: auto !important;
 }
 
@@ -40,6 +40,7 @@ html {
     opacity: 0.9 !important;
     transition: all 0.4s ease 0s !important;
     height: 100% !important;
+    padding-bottom: 10px;
 }
 .project-card-container:hover {
     /* transform: scale(1.02) !important; */
