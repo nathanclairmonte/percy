@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
-import logo from "../../assets/logo.png";
+// import logo from "../../assets/logo.png";
+import logo from "../../assets/logo_nc.png";
 import { Link } from "react-router-dom";
 import { CgFileDocument } from "react-icons/cg";
 // import { ImBlog } from "react-icons/im";
@@ -10,6 +11,7 @@ import {
     AiOutlineFundProjectionScreen,
     AiOutlineUser,
 } from "react-icons/ai";
+import { HiOutlineMail } from "react-icons/hi";
 import "./NavigationBar.css";
 
 const NavigationBar = () => {
@@ -80,6 +82,14 @@ const NavigationBar = () => {
                                 target="_blank"
                             >
                                 <AiFillGithub style={{ marginBottom: iconMargin }} /> Github
+                            </Nav.Link>
+
+                            <Nav.Link
+                                href="mailto:nathanclairmonte@outlook.com"
+                                onClick={() => setExpanded(false)}
+                                target="_blank"
+                            >
+                                <HiOutlineMail style={{ marginBottom: iconMargin }} /> Email Me
                             </Nav.Link>
                         </Nav.Item>
                     </Nav>
