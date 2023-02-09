@@ -25,8 +25,7 @@ const About = () => {
                             paddingBottom: "50px",
                         }}
                     >
-                        <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>Title</h1>
-                        {/* AboutCard */}
+                        <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>About Me</h1>
                         <AboutCard />
                     </Col>
                     <Col
