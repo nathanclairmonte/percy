@@ -15,10 +15,11 @@ const HomeAbout = () => {
                         <h1 style={{ fontSize: "2.6em" }}>A brief introduction:</h1>
 
                         <p className="home-about-body">
-                            I fell in love with computers and programming during my undergrad and
-                            have been learning about them ever since. My main areas of interest are
+                            With a passion for technology ignited during my undergraduate studies, I
+                            have been continuously exploring the exciting world of computers and
+                            programming. My main areas expertise lie in the cutting-edge fields of
                             <i>
-                                <b className="orange"> AI</b>
+                                <b className="orange"> artificial intelligence (AI)</b>
                             </i>
                             ,
                             <i>
@@ -30,8 +31,8 @@ const HomeAbout = () => {
                             </i>
                             technologies.
                             <br />
-                            <br />
-                            Specifically, I have worked on machine learning projects for
+                            <br />I have honed my skills through numerous dynamic machine learning
+                            projects on a variety of topics, including
                             <i>
                                 <b className="orange"> biomedical signal processing</b>
                             </i>
@@ -43,19 +44,21 @@ const HomeAbout = () => {
                             <i>
                                 <b className="orange"> bio-informatics </b>
                             </i>
-                            and more.
+                            and beyond.
                             <br />
                             <br />
-                            Additionally, I enjoy
+                            In addition to my AI pursuits, I am a skilled full-stack developer,
+                            creating innovative
                             <i>
-                                <b className="orange"> web development </b>
+                                <b className="orange"> mobile applications </b>
                             </i>{" "}
-                            and
+                            and dynamic
                             <i>
-                                <b className="orange"> app development</b>
+                                <b className="orange"> websites </b>
                             </i>
-                            , having built multiple mobile applications and the website you're
-                            viewing right now!
+                            that deliver outstanding user experiences. In fact, the very website you
+                            are currently viewing is a testament to my dedication and technical
+                            proficiency in web development!
                         </p>
                     </Col>
                     <Col md={3} className="myAvtar">
