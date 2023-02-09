@@ -99,9 +99,9 @@ const Projects = () => {
         <Container fluid className="projects-section">
             <Particle />
             <Container>
-                <h1 className="projects-heading">My Recent Works</h1>
+                <h1 className="projects-heading">My Projects</h1>
                 <p className="projects-description">
-                    Here are a few projects I've worked on throughout my career
+                    Here is a (non-exhaustive) list of projects I've worked on throughout my career:
                 </p>
                 <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
                     {myProjects.map((project) => (
