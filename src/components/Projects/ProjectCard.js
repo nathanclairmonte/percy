@@ -18,7 +18,7 @@ const ProjectCard = ({ img, title, desc, gitLink, webLink }) => {
                 }}
             />
             <Card.Body>
-                <Card.Title>{title}</Card.Title>
+                <Card.Title className="orange">{title}</Card.Title>
                 <Card.Text style={{ textAlign: "center" }}>{desc}</Card.Text>
                 <Button variant="primary" href={gitLink} target="_blank">
                     <BsGithub /> GitHub
