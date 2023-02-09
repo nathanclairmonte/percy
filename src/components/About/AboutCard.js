@@ -1,6 +1,6 @@
 import React from "react";
 import { Card } from "react-bootstrap";
-import { BsCheckCircle } from "react-icons/bs";
+// import { BsCheckCircle } from "react-icons/bs";
 
 // IoIosArrowDroprightCircle
 // IoIosArrowDropright
@@ -35,10 +35,10 @@ const AboutCard = () => {
                         challenges and opportunities to grow.
                         <br />
                         <br />
-                        <br />
-                        Here are a few things I am passionate about:
+                        <br />I am based in Toronto, Ontario, Canada.
+                        {/* Here are a few things I am passionate about: */}
                     </p>
-                    <ul>
+                    {/* <ul>
                         <li className="about-card-passions">
                             <BsCheckCircle className="passions-list-icon" /> Machine learning/AI
                         </li>
@@ -53,7 +53,8 @@ const AboutCard = () => {
                             <BsCheckCircle className="passions-list-icon" /> Sports, most
                             importantly football (soccer)
                         </li>
-                    </ul>
+                    </ul> */}
+
                     {/* <p className="about-card-quote">
                         "Lorem" (a quote lol)
                         <br />
