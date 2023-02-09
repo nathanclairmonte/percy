@@ -4,7 +4,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../assets/avatar2_ts.png";
 import Tilt from "react-parallax-tilt";
 import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaLinkedinIn, FaPhoneAlt } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
 
 const HomeAbout = () => {
     return (
@@ -69,9 +70,29 @@ const HomeAbout = () => {
                 </Row>
                 <Row>
                     <Col md={12} className="home-about-social">
-                        <h1>You can find me on:</h1>
+                        <h1>Please don't hestitate to connect!</h1>
 
                         <ul className="home-about-social-links">
+                            <li className="social-icons">
+                                <a
+                                    href="tel:+15149921787"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className="icon-colour  home-social-icons"
+                                >
+                                    <FaPhoneAlt />
+                                </a>
+                            </li>
+                            <li className="social-icons">
+                                <a
+                                    href="mailto:nathanclairmonte@outlook.com"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className="icon-colour  home-social-icons"
+                                >
+                                    <MdEmail />
+                                </a>
+                            </li>
                             <li className="social-icons">
                                 <a
                                     href="https://github.com/nathanclairmonte"
@@ -82,16 +103,6 @@ const HomeAbout = () => {
                                     <AiFillGithub />
                                 </a>
                             </li>
-                            {/* <li className="social-icons">
-                                <a
-                                    href="https://twitter.com/Soumyajit4419"
-                                    target="_blank"
-                                    rel="noreferrer"
-                                    className="icon-colour  home-social-icons"
-                                >
-                                    <AiOutlineTwitter />
-                                </a>
-                            </li> */}
                             <li className="social-icons">
                                 <a
                                     href="https://www.linkedin.com/in/nathanclairmonte/"
