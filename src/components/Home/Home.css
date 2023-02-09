@@ -58,10 +58,10 @@ html {
 .home-section {
     position: relative;
     z-index: -1;
-    background-image: var(--image-gradient), url(../../assets/ocean.jpg);
+    /* background-image: var(--image-gradient), url(../../assets/ocean.jpg); */
     background-position: top center;
     background-repeat: no-repeat;
-    padding-bottom: 30px !important;
+    /* padding-bottom: 30px !important; */
     padding-top: 30px !important;
 }
 
@@ -97,6 +97,12 @@ html {
 }
 
 @media (max-width: 767px) {
+    .home-img {
+        padding-top: 0 !important;
+    }
+}
+
+@media (max-width: 767px) {
     .Typewriter__wrapper {
         font-size: 1.4em !important;
         font-weight: 500 !important;
@@ -122,7 +128,7 @@ html {
 .home-about-section {
     position: relative;
     padding-bottom: 70px !important;
-    padding-top: 70px !important;
+    /* padding-top: 70px !important; */
     /* background-image: var(--image-gradient), url(./assets/ocean.jpg); */
     background-position: top center;
     background-repeat: no-repeat;

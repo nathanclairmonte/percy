@@ -2,7 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle/Particle";
 import TypewriterEffect from "./TypewriterEffect";
-import homeLogo from "../../assets/home-main.svg";
+// import homeLogo from "../../assets/home-main.svg";
+// import homeImg from "../../assets/man_at_desk_work_ts.png";
+import homeImg from "../../assets/man_at_desk_casual_ts.png";
 import HomeAbout from "./HomeAbout";
 import "./Home.css";
 
@@ -30,12 +32,13 @@ const Home = () => {
                             </div>
                         </Col>
 
-                        <Col md={5} style={{ paddingBottom: 20 }}>
+                        <Col md={5} style={{ paddingBottom: 20 }} className="home-img">
                             <img
-                                src={homeLogo}
+                                // src={homeLogo}
+                                src={homeImg}
                                 alt="home pic"
                                 className="img-fluid"
-                                style={{ maxHeight: "450px" }}
+                                style={{ maxHeight: "650px" }}
                             />
                         </Col>
                     </Row>
