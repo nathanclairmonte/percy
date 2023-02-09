@@ -20,6 +20,9 @@ import {
     SiScipy,
     SiJavascript,
     SiTypescript,
+    SiPostgresql,
+    SiMicrosoftsqlserver,
+    SiMysql,
     SiBootstrap,
     SiFlask,
     SiDotnet,
@@ -80,8 +83,20 @@ const technologies = [
         icon: <FaReact className="tech-icon" />,
     },
     {
+        name: "PostgreSQL",
+        icon: <SiPostgresql className="tech-icon" />,
+    },
+    {
         name: "Node.js",
         icon: <FaNode className="tech-icon" />,
+    },
+    {
+        name: "Microsoft SQL Server",
+        icon: <SiMicrosoftsqlserver className="tech-icon" />,
+    },
+    {
+        name: "MySQL",
+        icon: <SiMysql className="tech-icon" />,
     },
     {
         name: "Bootstrap",
