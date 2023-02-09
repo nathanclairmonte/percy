@@ -34,8 +34,7 @@ const AboutCard = () => {
                         with my love for all things music and sports-related, always seeking out new
                         challenges and opportunities to grow.
                         <br />
-                        <br />
-                        <br />I am based in Toronto, Ontario, Canada.
+                        <br />I am based in Toronto, Canada.
                         {/* Here are a few things I am passionate about: */}
                     </p>
                     {/* <ul>
