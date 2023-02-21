@@ -18,7 +18,8 @@ const HomeAbout = () => {
                         <p className="home-about-body">
                             With a passion for technology ignited during my undergraduate studies, I
                             have been continuously exploring the exciting world of computers and
-                            programming. My main areas expertise lie in the cutting-edge fields of
+                            programming. My main areas of expertise lie in the cutting-edge fields
+                            of
                             <i>
                                 <b className="orange"> artificial intelligence (AI)</b>
                             </i>
