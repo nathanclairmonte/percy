@@ -10,6 +10,9 @@ import Footer from "./components/Footer/Footer";
 import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
 import Resume from "./components/Resume/Resume";
+import { inject } from "@vercel/analytics";
+
+inject();
 
 function App() {
     const [load, setLoad] = useState(true);
